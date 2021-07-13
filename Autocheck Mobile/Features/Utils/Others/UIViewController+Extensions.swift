@@ -63,10 +63,6 @@ extension UIViewController {
         present(viewController, animated: animated, completion: completion)
     }
     
-    func navigateToHome(animate: Bool = false) {
-        //setViewControllers(with: R.storyboard.dashboard.dashboardViewController()!, animate: animate)
-    }
-    
     func hideNavBar(_ shouldHide: Bool = true) {
         self.navigationController?.navigationBar.isHidden = shouldHide
     }
@@ -104,7 +100,7 @@ extension UIViewController {
         
         var toastStyle = ToastStyle()
         toastStyle.messageColor = .white
-        toastStyle.messageFont = .sfProDisplayLight(size: 14)
+        toastStyle.messageFont = .nunitoLight(size: 14)
         toastStyle.backgroundColor = color
         
         ToastManager.shared.isTapToDismissEnabled = true

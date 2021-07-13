@@ -18,31 +18,32 @@ func printAvailableFonts() {
 
 extension UIFont {
     
-    class func sfProDisplayBlack(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayBlack(size: size)! }
+    class func nunitoBlack(size: CGFloat = 16) -> UIFont { R.font.nunitoBlack(size: size)! }
     
-    class func sfProDisplayRegular(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayRegular(size: size)! }
+    class func nunitoBlackItalic(size: CGFloat = 16) -> UIFont { R.font.nunitoBlackItalic(size: size)! }
     
-    class func sfProDisplayBoldItalic(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayBoldItalic(size: size)! }
+    class func nunitoBold(size: CGFloat = 16) -> UIFont { R.font.nunitoBold(size: size)! }
     
-    class func sfProDisplayBold(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayBold(size: size)! }
+    class func nunitoBoldItalic(size: CGFloat = 16) -> UIFont { R.font.nunitoBoldItalic(size: size)! }
     
-    class func sfProDisplayThinItalic(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayThinItalic(size: size)! }
+    class func nunitoExtraBold(size: CGFloat = 16) -> UIFont { R.font.nunitoExtraBold(size: size)! }
     
-    class func sfProDisplayThin(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayThin(size: size)! }
+    class func nunitoExtraBoldItalic(size: CGFloat = 16) -> UIFont { R.font.nunitoExtraBoldItalic(size: size)! }
     
-    class func sfProDisplayLight(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayRegular(size: size)! }
+    class func nunitoExtraLight(size: CGFloat = 16) -> UIFont { R.font.nunitoExtraLight(size: size)! }
     
-    class func sfProDisplayLightItalic(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayLightItalic(size: size)! }
+    class func nunitoExtraLightItalic(size: CGFloat = 16) -> UIFont { R.font.nunitoExtraLightItalic(size: size)! }
     
-    class func sfProDisplaySemiBold(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayBold(size: size)! }
+    class func nunitoItalic(size: CGFloat = 16) -> UIFont { R.font.nunitoItalic(size: size)! }
     
-    class func sfProDisplaySemiBoldItalic(size: CGFloat = 16) -> UIFont { R.font.sfProDisplaySemiboldItalic(size: size)! }
+    class func nunitoLight(size: CGFloat = 16) -> UIFont { R.font.nunitoLight(size: size)! }
     
-    class func sfProDisplayUltraLight(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayUltralight(size: size)! }
+    class func nunitoLightItalic(size: CGFloat = 16) -> UIFont { R.font.nunitoLightItalic(size: size)! }
     
-    class func sfProDisplayUltraLightItalic(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayUltralightItalic(size: size)! }
+    class func nunitoRegular(size: CGFloat = 16) -> UIFont { R.font.nunitoRegular(size: size)! }
     
-    class func sfProDisplayBlackItalic(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayBlackItalic(size: size)! }
+    class func nunitoSemiBold(size: CGFloat = 16) -> UIFont { R.font.nunitoSemiBold(size: size)! }
     
-    class func sfProDisplayItalic(size: CGFloat = 16) -> UIFont { R.font.sfProDisplayItalic(size: size)! }
+    class func nunitoSemiBoldItalic(size: CGFloat = 16) -> UIFont { R.font.nunitoSemiBoldItalic(size: size)! }
+    
 }

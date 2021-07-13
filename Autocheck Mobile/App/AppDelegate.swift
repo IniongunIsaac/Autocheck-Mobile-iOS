@@ -15,9 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        configureGlobalAppAppearance()
-        
         IQKeyboardManager.shared.enable = true
+        printAvailableFonts()
         
         return true
     }
@@ -36,25 +35,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
-    fileprivate func configureGlobalAppAppearance() {
-        let iPadAttributes = [NSAttributedString.Key.font : UIFont.sfProDisplayRegular(size: 16)]
-        let iPadTraitCollection = UITraitCollection.init(traitsFrom: [.init(horizontalSizeClass: .regular), .init(verticalSizeClass: .regular)])
-        let iPhoneTraitCollection = UITraitCollection.init(traitsFrom: [.init(horizontalSizeClass: .compact), .init(verticalSizeClass: .regular)])
-        
-        //configurations for iPads: wRhR
-        UIBarButtonItem.appearance(for: iPadTraitCollection).setTitleTextAttributes(iPadAttributes, for: .normal)
-        UITabBarItem.appearance(for: iPadTraitCollection).setTitleTextAttributes(iPadAttributes, for: .normal)
-        UINavigationBar.appearance(for: iPadTraitCollection).titleTextAttributes = [NSAttributedString.Key.font : UIFont.sfProDisplaySemiBold(size: 18)]
-        
-        //configurations for iPhones: wChR
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font : UIFont.sfProDisplayRegular(size: 16), NSAttributedString.Key.foregroundColor : UIColor.aLabel], for: .normal)
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font : UIFont.sfProDisplaySemiBold(size: 12)], for: .normal)
-        UINavigationBar.appearance(for: iPhoneTraitCollection).titleTextAttributes = [NSAttributedString.Key.font : UIFont.sfProDisplaySemiBold(size: 16)]
-        UINavigationBar.appearance(for: iPhoneTraitCollection).tintColor = UIColor.aLabel
-        
     }
     
 }

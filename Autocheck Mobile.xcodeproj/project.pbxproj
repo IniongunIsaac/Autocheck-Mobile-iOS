@@ -37,24 +37,6 @@
 		1454CE992512ABBA00AD1BF1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1454CE982512ABBA00AD1BF1 /* BaseViewController.swift */; };
 		1454CEB12512B10000AD1BF1 /* ViewWithBorderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1454CEB02512B10000AD1BF1 /* ViewWithBorderAttributes.swift */; };
 		145A6826255D4A2900554B4C /* Numbers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A6825255D4A2900554B4C /* Numbers+Extensions.swift */; };
-		145BF1EF256429350052E503 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1D1256429330052E503 /* SF-Pro-Display-LightItalic.otf */; };
-		145BF1F4256429350052E503 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1D6256429330052E503 /* SF-Pro-Display-ThinItalic.otf */; };
-		145BF1F5256429350052E503 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1D7256429330052E503 /* SF-Pro-Display-Bold.otf */; };
-		145BF1F6256429350052E503 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1D8256429330052E503 /* SF-Pro-Display-Heavy.otf */; };
-		145BF1F7256429350052E503 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1D9256429330052E503 /* SF-Pro-Display-UltralightItalic.otf */; };
-		145BF1F8256429350052E503 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1DA256429330052E503 /* SF-Pro-Display-Semibold.otf */; };
-		145BF1F9256429350052E503 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1DB256429330052E503 /* SF-Pro-Display-SemiboldItalic.otf */; };
-		145BF1FA256429350052E503 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1DC256429330052E503 /* SF-Pro-Display-Thin.otf */; };
-		145BF1FB256429350052E503 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1DD256429340052E503 /* SF-Pro-Display-MediumItalic.otf */; };
-		145BF1FC256429350052E503 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1DE256429340052E503 /* SF-Pro-Display-BoldItalic.otf */; };
-		145BF1FD256429350052E503 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1DF256429340052E503 /* SF-Pro-Display-HeavyItalic.otf */; };
-		145BF1FF256429350052E503 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1E1256429340052E503 /* SF-Pro-Display-RegularItalic.otf */; };
-		145BF200256429350052E503 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1E2256429340052E503 /* SF-Pro-Display-Black.otf */; };
-		145BF201256429350052E503 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1E3256429340052E503 /* SF-Pro-Display-Regular.otf */; };
-		145BF204256429350052E503 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1E6256429340052E503 /* SF-Pro-Display-Ultralight.otf */; };
-		145BF205256429350052E503 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1E7256429340052E503 /* SF-Pro-Display-Light.otf */; };
-		145BF207256429350052E503 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1E9256429340052E503 /* SF-Pro-Display-BlackItalic.otf */; };
-		145BF208256429350052E503 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145BF1EA256429350052E503 /* SF-Pro-Display-Medium.otf */; };
 		146D914B268D7BF9007E5FEE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914A268D7BF9007E5FEE /* BaseView.swift */; };
 		146D914E268D81EF007E5FEE /* UIPaddableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */; };
 		149118AD269D92BA008E9D87 /* Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118AC269D92BA008E9D87 /* Make.swift */; };
@@ -71,6 +53,27 @@
 		149118C3269DA713008E9D87 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118C2269DA713008E9D87 /* CarModel.swift */; };
 		149118C5269DA850008E9D87 /* DamageMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118C4269DA850008E9D87 /* DamageMedia.swift */; };
 		149118C7269DA9EB008E9D87 /* CarMediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118C6269DA9EB008E9D87 /* CarMediaResponse.swift */; };
+		149118CA269DAD9D008E9D87 /* IInventoryRemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118C9269DAD9D008E9D87 /* IInventoryRemoteDatasource.swift */; };
+		149118CC269DADB5008E9D87 /* InventoryRemoteDatasourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118CB269DADB5008E9D87 /* InventoryRemoteDatasourceImpl.swift */; };
+		149118D4269DB1ED008E9D87 /* CarInventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149118D3269DB1ED008E9D87 /* CarInventory.storyboard */; };
+		149118D6269DB21D008E9D87 /* CarInventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118D5269DB21D008E9D87 /* CarInventoryViewController.swift */; };
+		149118D8269DB23B008E9D87 /* CarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118D7269DB23B008E9D87 /* CarDetailsViewController.swift */; };
+		149118DA269DB263008E9D87 /* ICarInventoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118D9269DB263008E9D87 /* ICarInventoryViewModel.swift */; };
+		149118DC269DB282008E9D87 /* CarInventoryViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118DB269DB282008E9D87 /* CarInventoryViewModelImpl.swift */; };
+		149118EB269DB93E008E9D87 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118DD269DB93C008E9D87 /* Nunito-BoldItalic.ttf */; };
+		149118EC269DB93E008E9D87 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118DE269DB93D008E9D87 /* Nunito-ExtraBoldItalic.ttf */; };
+		149118ED269DB93E008E9D87 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118DF269DB93D008E9D87 /* Nunito-Bold.ttf */; };
+		149118EE269DB93E008E9D87 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E0269DB93D008E9D87 /* Nunito-Black.ttf */; };
+		149118EF269DB93E008E9D87 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E1269DB93D008E9D87 /* Nunito-SemiBoldItalic.ttf */; };
+		149118F0269DB93E008E9D87 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E2269DB93D008E9D87 /* Nunito-LightItalic.ttf */; };
+		149118F1269DB93E008E9D87 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E3269DB93D008E9D87 /* Nunito-Light.ttf */; };
+		149118F2269DB93E008E9D87 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E4269DB93D008E9D87 /* Nunito-BlackItalic.ttf */; };
+		149118F3269DB93E008E9D87 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E5269DB93D008E9D87 /* Nunito-ExtraLight.ttf */; };
+		149118F4269DB93E008E9D87 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E6269DB93D008E9D87 /* Nunito-Italic.ttf */; };
+		149118F5269DB93E008E9D87 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E7269DB93D008E9D87 /* Nunito-Regular.ttf */; };
+		149118F6269DB93E008E9D87 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E8269DB93D008E9D87 /* Nunito-ExtraBold.ttf */; };
+		149118F7269DB93E008E9D87 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118E9269DB93D008E9D87 /* Nunito-ExtraLightItalic.ttf */; };
+		149118F8269DB93E008E9D87 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 149118EA269DB93E008E9D87 /* Nunito-SemiBold.ttf */; };
 		14B9EAD625633A4400A9D4D6 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9EAD525633A4300A9D4D6 /* EmptyView.swift */; };
 		14B9EADB25633A5700A9D4D6 /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B9EADA25633A5700A9D4D6 /* EmptyView.xib */; };
 		14C23DA025034ABF00614E69 /* RemoteDataSource+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C23D9F25034ABF00614E69 /* RemoteDataSource+Extensions.swift */; };
@@ -139,24 +142,6 @@
 		1454CE982512ABBA00AD1BF1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1454CEB02512B10000AD1BF1 /* ViewWithBorderAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithBorderAttributes.swift; sourceTree = "<group>"; };
 		145A6825255D4A2900554B4C /* Numbers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numbers+Extensions.swift"; sourceTree = "<group>"; };
-		145BF1D1256429330052E503 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
-		145BF1D6256429330052E503 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
-		145BF1D7256429330052E503 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
-		145BF1D8256429330052E503 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
-		145BF1D9256429330052E503 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
-		145BF1DA256429330052E503 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
-		145BF1DB256429330052E503 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
-		145BF1DC256429330052E503 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
-		145BF1DD256429340052E503 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
-		145BF1DE256429340052E503 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
-		145BF1DF256429340052E503 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
-		145BF1E1256429340052E503 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
-		145BF1E2256429340052E503 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
-		145BF1E3256429340052E503 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
-		145BF1E6256429340052E503 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
-		145BF1E7256429340052E503 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
-		145BF1E9256429340052E503 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
-		145BF1EA256429350052E503 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
 		146D914A268D7BF9007E5FEE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddableLabel.swift; sourceTree = "<group>"; };
 		149118AC269D92BA008E9D87 /* Make.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make.swift; sourceTree = "<group>"; };
@@ -173,6 +158,27 @@
 		149118C2269DA713008E9D87 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		149118C4269DA850008E9D87 /* DamageMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageMedia.swift; sourceTree = "<group>"; };
 		149118C6269DA9EB008E9D87 /* CarMediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMediaResponse.swift; sourceTree = "<group>"; };
+		149118C9269DAD9D008E9D87 /* IInventoryRemoteDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IInventoryRemoteDatasource.swift; sourceTree = "<group>"; };
+		149118CB269DADB5008E9D87 /* InventoryRemoteDatasourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryRemoteDatasourceImpl.swift; sourceTree = "<group>"; };
+		149118D3269DB1ED008E9D87 /* CarInventory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarInventory.storyboard; sourceTree = "<group>"; };
+		149118D5269DB21D008E9D87 /* CarInventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInventoryViewController.swift; sourceTree = "<group>"; };
+		149118D7269DB23B008E9D87 /* CarDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsViewController.swift; sourceTree = "<group>"; };
+		149118D9269DB263008E9D87 /* ICarInventoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICarInventoryViewModel.swift; sourceTree = "<group>"; };
+		149118DB269DB282008E9D87 /* CarInventoryViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInventoryViewModelImpl.swift; sourceTree = "<group>"; };
+		149118DD269DB93C008E9D87 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		149118DE269DB93D008E9D87 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		149118DF269DB93D008E9D87 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		149118E0269DB93D008E9D87 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		149118E1269DB93D008E9D87 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		149118E2269DB93D008E9D87 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		149118E3269DB93D008E9D87 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		149118E4269DB93D008E9D87 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		149118E5269DB93D008E9D87 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		149118E6269DB93D008E9D87 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		149118E7269DB93D008E9D87 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		149118E8269DB93D008E9D87 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		149118E9269DB93D008E9D87 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		149118EA269DB93E008E9D87 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
 		14B9EAD525633A4300A9D4D6 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		14B9EADA25633A5700A9D4D6 /* EmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
 		14C23D9F25034ABF00614E69 /* RemoteDataSource+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoteDataSource+Extensions.swift"; sourceTree = "<group>"; };
@@ -310,6 +316,7 @@
 		144AD27B2502907800394E59 /* Remote Datasource */ = {
 			isa = PBXGroup;
 			children = (
+				149118C8269DAD80008E9D87 /* Inventory */,
 				144AD28C25029C4400394E59 /* Base */,
 				144AD28D25029D2700394E59 /* Utils */,
 			);
@@ -329,6 +336,7 @@
 		144AD27E250290B600394E59 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				149118CD269DB177008E9D87 /* Car Inventory */,
 				144AD2872502931900394E59 /* Launch */,
 				1454CE952512AB6500AD1BF1 /* Base */,
 				1454CE572512A41100AD1BF1 /* Utils */,
@@ -451,24 +459,20 @@
 		1454CEB82512BBBC00AD1BF1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				145BF1E2256429340052E503 /* SF-Pro-Display-Black.otf */,
-				145BF1E9256429340052E503 /* SF-Pro-Display-BlackItalic.otf */,
-				145BF1D7256429330052E503 /* SF-Pro-Display-Bold.otf */,
-				145BF1DE256429340052E503 /* SF-Pro-Display-BoldItalic.otf */,
-				145BF1D8256429330052E503 /* SF-Pro-Display-Heavy.otf */,
-				145BF1DF256429340052E503 /* SF-Pro-Display-HeavyItalic.otf */,
-				145BF1E7256429340052E503 /* SF-Pro-Display-Light.otf */,
-				145BF1D1256429330052E503 /* SF-Pro-Display-LightItalic.otf */,
-				145BF1EA256429350052E503 /* SF-Pro-Display-Medium.otf */,
-				145BF1DD256429340052E503 /* SF-Pro-Display-MediumItalic.otf */,
-				145BF1E3256429340052E503 /* SF-Pro-Display-Regular.otf */,
-				145BF1E1256429340052E503 /* SF-Pro-Display-RegularItalic.otf */,
-				145BF1DA256429330052E503 /* SF-Pro-Display-Semibold.otf */,
-				145BF1DB256429330052E503 /* SF-Pro-Display-SemiboldItalic.otf */,
-				145BF1DC256429330052E503 /* SF-Pro-Display-Thin.otf */,
-				145BF1D6256429330052E503 /* SF-Pro-Display-ThinItalic.otf */,
-				145BF1E6256429340052E503 /* SF-Pro-Display-Ultralight.otf */,
-				145BF1D9256429330052E503 /* SF-Pro-Display-UltralightItalic.otf */,
+				149118E0269DB93D008E9D87 /* Nunito-Black.ttf */,
+				149118E4269DB93D008E9D87 /* Nunito-BlackItalic.ttf */,
+				149118DF269DB93D008E9D87 /* Nunito-Bold.ttf */,
+				149118DD269DB93C008E9D87 /* Nunito-BoldItalic.ttf */,
+				149118E8269DB93D008E9D87 /* Nunito-ExtraBold.ttf */,
+				149118DE269DB93D008E9D87 /* Nunito-ExtraBoldItalic.ttf */,
+				149118E5269DB93D008E9D87 /* Nunito-ExtraLight.ttf */,
+				149118E9269DB93D008E9D87 /* Nunito-ExtraLightItalic.ttf */,
+				149118E6269DB93D008E9D87 /* Nunito-Italic.ttf */,
+				149118E3269DB93D008E9D87 /* Nunito-Light.ttf */,
+				149118E2269DB93D008E9D87 /* Nunito-LightItalic.ttf */,
+				149118E7269DB93D008E9D87 /* Nunito-Regular.ttf */,
+				149118EA269DB93E008E9D87 /* Nunito-SemiBold.ttf */,
+				149118E1269DB93D008E9D87 /* Nunito-SemiBoldItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -497,6 +501,51 @@
 				146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		149118C8269DAD80008E9D87 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				149118C9269DAD9D008E9D87 /* IInventoryRemoteDatasource.swift */,
+				149118CB269DADB5008E9D87 /* InventoryRemoteDatasourceImpl.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		149118CD269DB177008E9D87 /* Car Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				149118D0269DB19E008E9D87 /* ViewModel */,
+				149118CF269DB18F008E9D87 /* Views */,
+				149118CE269DB185008E9D87 /* Storyboards */,
+			);
+			path = "Car Inventory";
+			sourceTree = "<group>";
+		};
+		149118CE269DB185008E9D87 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				149118D3269DB1ED008E9D87 /* CarInventory.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		149118CF269DB18F008E9D87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				149118D5269DB21D008E9D87 /* CarInventoryViewController.swift */,
+				149118D7269DB23B008E9D87 /* CarDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		149118D0269DB19E008E9D87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				149118D9269DB263008E9D87 /* ICarInventoryViewModel.swift */,
+				149118DB269DB282008E9D87 /* CarInventoryViewModelImpl.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		14B9EACE25633A1300A9D4D6 /* Empty View */ = {
@@ -645,30 +694,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145BF1FA256429350052E503 /* SF-Pro-Display-Thin.otf in Resources */,
-				145BF1FF256429350052E503 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				149118F8269DB93E008E9D87 /* Nunito-SemiBold.ttf in Resources */,
+				149118EF269DB93E008E9D87 /* Nunito-SemiBoldItalic.ttf in Resources */,
 				144AD2832502919900394E59 /* .gitignore in Resources */,
-				145BF1FD256429350052E503 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
-				145BF1F4256429350052E503 /* SF-Pro-Display-ThinItalic.otf in Resources */,
-				145BF1FB256429350052E503 /* SF-Pro-Display-MediumItalic.otf in Resources */,
 				144AD25425028CF400394E59 /* LaunchScreen.storyboard in Resources */,
-				145BF201256429350052E503 /* SF-Pro-Display-Regular.otf in Resources */,
+				149118EB269DB93E008E9D87 /* Nunito-BoldItalic.ttf in Resources */,
+				149118F2269DB93E008E9D87 /* Nunito-BlackItalic.ttf in Resources */,
 				144AD25125028CF400394E59 /* Assets.xcassets in Resources */,
-				145BF1F6256429350052E503 /* SF-Pro-Display-Heavy.otf in Resources */,
-				145BF200256429350052E503 /* SF-Pro-Display-Black.otf in Resources */,
+				149118F5269DB93E008E9D87 /* Nunito-Regular.ttf in Resources */,
+				149118D4269DB1ED008E9D87 /* CarInventory.storyboard in Resources */,
+				149118F3269DB93E008E9D87 /* Nunito-ExtraLight.ttf in Resources */,
 				144A5B30268FCE8A0015898D /* README.md in Resources */,
-				145BF1F5256429350052E503 /* SF-Pro-Display-Bold.otf in Resources */,
-				145BF207256429350052E503 /* SF-Pro-Display-BlackItalic.otf in Resources */,
-				145BF1F9256429350052E503 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
-				145BF1F8256429350052E503 /* SF-Pro-Display-Semibold.otf in Resources */,
-				145BF1EF256429350052E503 /* SF-Pro-Display-LightItalic.otf in Resources */,
-				145BF204256429350052E503 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				149118EE269DB93E008E9D87 /* Nunito-Black.ttf in Resources */,
+				149118F7269DB93E008E9D87 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				149118F1269DB93E008E9D87 /* Nunito-Light.ttf in Resources */,
+				149118F0269DB93E008E9D87 /* Nunito-LightItalic.ttf in Resources */,
+				149118ED269DB93E008E9D87 /* Nunito-Bold.ttf in Resources */,
+				149118F6269DB93E008E9D87 /* Nunito-ExtraBold.ttf in Resources */,
 				14B9EADB25633A5700A9D4D6 /* EmptyView.xib in Resources */,
-				145BF1FC256429350052E503 /* SF-Pro-Display-BoldItalic.otf in Resources */,
-				145BF205256429350052E503 /* SF-Pro-Display-Light.otf in Resources */,
-				145BF1F7256429350052E503 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
-				145BF208256429350052E503 /* SF-Pro-Display-Medium.otf in Resources */,
 				144AD27825028FE700394E59 /* Podfile.lock in Resources */,
+				149118EC269DB93E008E9D87 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				149118F4269DB93E008E9D87 /* Nunito-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,13 +879,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				144AD28F25029D3600394E59 /* RemoteDataSourceConstants.swift in Sources */,
+				149118CC269DADB5008E9D87 /* InventoryRemoteDatasourceImpl.swift in Sources */,
 				146D914B268D7BF9007E5FEE /* BaseView.swift in Sources */,
 				14C23DA625034B6C00614E69 /* IPreference.swift in Sources */,
+				149118DC269DB282008E9D87 /* CarInventoryViewModelImpl.swift in Sources */,
 				1454CE622512A4B000AD1BF1 /* ValidationMessageConstants.swift in Sources */,
 				1454CE5C2512A45000AD1BF1 /* ValidationMessage.swift in Sources */,
 				1454CE732512A68200AD1BF1 /* AppConstants.swift in Sources */,
 				14C23DA225034AF900614E69 /* IBaseRemoteDataSource.swift in Sources */,
 				1454CE6F2512A5FB00AD1BF1 /* Fonts+Extensions.swift in Sources */,
+				149118D6269DB21D008E9D87 /* CarInventoryViewController.swift in Sources */,
 				1454CE772512A6F700AD1BF1 /* UIView+Extensions.swift in Sources */,
 				146D914E268D81EF007E5FEE /* UIPaddableLabel.swift in Sources */,
 				149118B9269DA570008E9D87 /* CarDetail.swift in Sources */,
@@ -857,6 +906,8 @@
 				149118B5269DA3AD008E9D87 /* Car.swift in Sources */,
 				1454CEB12512B10000AD1BF1 /* ViewWithBorderAttributes.swift in Sources */,
 				14C23DAA25034C3600614E69 /* PreferenceImpl.swift in Sources */,
+				149118CA269DAD9D008E9D87 /* IInventoryRemoteDatasource.swift in Sources */,
+				149118D8269DB23B008E9D87 /* CarDetailsViewController.swift in Sources */,
 				14B9EAD625633A4400A9D4D6 /* EmptyView.swift in Sources */,
 				144AD24825028CF200394E59 /* AppDelegate.swift in Sources */,
 				1454CE672512A54C00AD1BF1 /* AlertMessage.swift in Sources */,
@@ -865,6 +916,7 @@
 				1454CE5E2512A47000AD1BF1 /* IInputValidator.swift in Sources */,
 				149118C5269DA850008E9D87 /* DamageMedia.swift in Sources */,
 				1454CE7D2512A7C000AD1BF1 /* ScopeFunctions.swift in Sources */,
+				149118DA269DB263008E9D87 /* ICarInventoryViewModel.swift in Sources */,
 				144AD24A25028CF200394E59 /* SceneDelegate.swift in Sources */,
 				1454CE652512A53000AD1BF1 /* AlertType.swift in Sources */,
 				1454CE7B2512A74700AD1BF1 /* UIViewController+Extensions.swift in Sources */,

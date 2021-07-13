@@ -323,7 +323,7 @@ extension UICollectionView {
         messageLabel.textColor = .darkGray
         messageLabel.numberOfLines = 0;
         messageLabel.textAlignment = .center;
-        messageLabel.font = .sfProDisplayLight()
+        messageLabel.font = .nunitoLight()
         messageLabel.sizeToFit()
 
         self.backgroundView = messageLabel;
@@ -344,7 +344,7 @@ extension UITableView {
         messageLabel.textColor = .darkGray
         messageLabel.numberOfLines = 0
         messageLabel.textAlignment = .center
-        messageLabel.font = .sfProDisplayLight()
+        messageLabel.font = .nunitoLight()
         messageLabel.sizeToFit()
 
         self.backgroundView = messageLabel
@@ -434,7 +434,7 @@ extension UIAlertController {
         super.viewDidLayoutSubviews()
 
         for i in self.actions {
-            let attributedText = NSAttributedString(string: i.title ?? "", attributes: [NSAttributedString.Key.font : UIFont.sfProDisplayRegular(), NSAttributedString.Key.foregroundColor: UIColor.aLabel])
+            let attributedText = NSAttributedString(string: i.title ?? "", attributes: [NSAttributedString.Key.font : UIFont.nunitoRegular(), NSAttributedString.Key.foregroundColor: UIColor.aLabel])
 
             guard let label = (i.value(forKey: "__representer") as AnyObject).value(forKey: "label") as? UILabel else { return }
             label.attributedText = attributedText
@@ -444,7 +444,7 @@ extension UIAlertController {
     
     func configureView() {
         for i in self.actions {
-            let attributedText = NSAttributedString(string: i.title ?? "", attributes: [NSAttributedString.Key.font : UIFont.sfProDisplayRegular(), NSAttributedString.Key.foregroundColor: UIColor.aLabel])
+            let attributedText = NSAttributedString(string: i.title ?? "", attributes: [NSAttributedString.Key.font : UIFont.nunitoRegular(), NSAttributedString.Key.foregroundColor: UIColor.aLabel])
 
             guard let label = (i.value(forKey: "__representer") as AnyObject).value(forKey: "label") as? UILabel else { return }
             label.attributedText = attributedText
@@ -465,9 +465,9 @@ extension UIAlertAction {
     }
     
     var font: UIFont? {
-        get { .sfProDisplayRegular() }
+        get { .nunitoRegular() }
         set {
-            let attributedText = NSAttributedString(string: self.title ?? "", attributes: [NSAttributedString.Key.font : newValue ?? .sfProDisplayRegular(), NSAttributedString.Key.foregroundColor: UIColor.aLabel])
+            let attributedText = NSAttributedString(string: self.title ?? "", attributes: [NSAttributedString.Key.font : newValue ?? .nunitoRegular(), NSAttributedString.Key.foregroundColor: UIColor.aLabel])
 
             guard let label = (self.value(forKey: "__representer") as AnyObject).value(forKey: "label") as? UILabel else { return }
             label.attributedText = attributedText
