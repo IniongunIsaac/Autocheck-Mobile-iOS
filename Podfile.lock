@@ -1,9 +1,9 @@
 PODS:
   - Alamofire (5.2.2)
+  - AttributedStringBuilder (1.2.0)
   - DeviceKit (4.2.1)
   - Differentiator (4.0.1)
   - HorizontalProgressBar (1.0.5)
-  - IQKeyboardManagerSwift (6.5.6)
   - Kingfisher (5.14.1):
     - Kingfisher/Core (= 5.14.1)
   - Kingfisher/Core (5.14.1)
@@ -43,9 +43,9 @@ PODS:
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
+  - AttributedStringBuilder
   - DeviceKit (~> 4.0)
   - HorizontalProgressBar
-  - IQKeyboardManagerSwift
   - Kingfisher
   - R.swift
   - RxAlamofire (~> 5)
@@ -62,10 +62,10 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AttributedStringBuilder
     - DeviceKit
     - Differentiator
     - HorizontalProgressBar
-    - IQKeyboardManagerSwift
     - Kingfisher
     - R.swift
     - R.swift.Library
@@ -92,10 +92,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AttributedStringBuilder: 3cee4ae28b8fc6eba136242f89b0ea697a3b9d55
   DeviceKit: cadb5ff25d45fe186778bf2d0fd2ea4750542189
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   HorizontalProgressBar: f0e3d36051656651d1430d2cf5e0146fc4895f15
-  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
   R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
   R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
@@ -111,6 +111,6 @@ SPEC CHECKSUMS:
   SwinjectStoryboard: f0d5b1c16459949d6ff1cbb6610107946b18e1f8
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: fec544065d20ea9f5febdcf12c72e44d9cc23707
+PODFILE CHECKSUM: 579392d18bd9335e94e09b5c8683d3013b24a747
 
 COCOAPODS: 1.10.1

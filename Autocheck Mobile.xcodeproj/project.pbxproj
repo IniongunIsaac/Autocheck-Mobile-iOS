@@ -39,6 +39,7 @@
 		145A6826255D4A2900554B4C /* Numbers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A6825255D4A2900554B4C /* Numbers+Extensions.swift */; };
 		146D914B268D7BF9007E5FEE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914A268D7BF9007E5FEE /* BaseView.swift */; };
 		146D914E268D81EF007E5FEE /* UIPaddableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */; };
+		147AFECB269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AFECA269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift */; };
 		149118AD269D92BA008E9D87 /* Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118AC269D92BA008E9D87 /* Make.swift */; };
 		149118AF269D92DC008E9D87 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118AE269D92DC008E9D87 /* Pagination.swift */; };
 		149118B1269D9301008E9D87 /* MakeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118B0269D9301008E9D87 /* MakeResponse.swift */; };
@@ -147,6 +148,7 @@
 		145A6825255D4A2900554B4C /* Numbers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numbers+Extensions.swift"; sourceTree = "<group>"; };
 		146D914A268D7BF9007E5FEE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddableLabel.swift; sourceTree = "<group>"; };
+		147AFECA269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMediaCollectionViewCell.swift; sourceTree = "<group>"; };
 		149118AC269D92BA008E9D87 /* Make.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make.swift; sourceTree = "<group>"; };
 		149118AE269D92DC008E9D87 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
 		149118B0269D9301008E9D87 /* MakeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeResponse.swift; sourceTree = "<group>"; };
@@ -544,6 +546,7 @@
 				14EAC6A9269F25790002D974 /* MakeCollectionViewCell.swift */,
 				14EAC6AB269F25960002D974 /* CarTableViewCell.swift */,
 				14EAC6AD269F25F30002D974 /* MakeTableViewCell.swift */,
+				147AFECA269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -929,6 +932,7 @@
 				149118DA269DB263008E9D87 /* ICarInventoryViewModel.swift in Sources */,
 				144AD24A25028CF200394E59 /* SceneDelegate.swift in Sources */,
 				1454CE652512A53000AD1BF1 /* AlertType.swift in Sources */,
+				147AFECB269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift in Sources */,
 				1454CE7B2512A74700AD1BF1 /* UIViewController+Extensions.swift in Sources */,
 				1454CE792512A71F00AD1BF1 /* UIColor+Extensions.swift in Sources */,
 				1454CE972512AB7A00AD1BF1 /* BaseViewModel.swift in Sources */,

@@ -19,7 +19,8 @@ class CarInventoryViewController: BaseViewController {
     
     var carInventoryViewModel: ICarInventoryViewModel!
     override func getViewModel() -> BaseViewModel { carInventoryViewModel as! BaseViewModel }
-    override var horizontalProgressBarYPosition: CGFloat { menuImageView.minY - 5 }
+    override var horizontalProgressBarYPosition: CGFloat { menuImageView.maxY }
+    override var views: [UIView] { [carsTableView, filterView, menuImageView, cartImageView] }
     
     fileprivate var cars: [Car] { carInventoryViewModel.cars }
     
@@ -38,11 +39,19 @@ class CarInventoryViewController: BaseViewController {
             $0.dataSource = self
             $0.delegate = self
         }
+        [menuImageView, cartImageView, filterView].forEach {
+            $0.animateViewOnTapGesture()
+        }
+        
+        showCarsAndMakes()
+        carInventoryViewModel.getMakesAndCars()
+        
     }
     
     override func setChildViewControllerObservers() {
         super.setChildViewControllerObservers()
         observeShowMakesAndCars()
+        observeShowCarDetails()
     }
     
     fileprivate func observeShowMakesAndCars() {
@@ -78,6 +87,20 @@ class CarInventoryViewController: BaseViewController {
         }
     }
     
+    fileprivate func observeShowCarDetails() {
+        carInventoryViewModel.showCarDetails.bind { [weak self] show in
+            if show {
+                self?.showCarDetailsViewController()
+            }
+        }.disposed(by: disposeBag)
+    }
+    
+    fileprivate func showCarDetailsViewController() {
+        pushViewController(R.storyboard.carInventory.carDetailsViewController()!.apply {
+            $0.carDetail = carInventoryViewModel.carDetails
+            $0.carMedia = carInventoryViewModel.carMedia
+        })
+    }
 }
 
 extension CarInventoryViewController: UITableViewDataSource, UITableViewDelegate {
@@ -101,15 +124,11 @@ extension CarInventoryViewController: UITableViewDataSource, UITableViewDelegate
             let car = cars[index - 1]
             carCell.configureView(car: car)
             carCell.animateViewOnTapGesture { [weak self] in
-                self?.showCarDetailsViewController(car)
+                self?.carInventoryViewModel.getCarDetails(id: car.id)
             }
             
             return carCell
         }
-    }
-    
-    fileprivate func showCarDetailsViewController(_ car: Car) {
-        showAlert(message: "Voilaaaa!", type: .success)
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

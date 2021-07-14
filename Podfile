@@ -20,7 +20,7 @@ target 'Autocheck Mobile' do
   pod 'HorizontalProgressBar'
   pod 'Kingfisher'
   pod 'Toast-Swift', '~> 5.0.1'
-  pod 'IQKeyboardManagerSwift'
+  pod "AttributedStringBuilder"
 
   target 'Autocheck MobileTests' do
     inherit! :search_paths

@@ -30,9 +30,9 @@ extension UIColor {
                 alpha: alpha)
     }
     
-    static var accentColor: UIColor { UIColor("#F68C04") }
+    static var accentColor: UIColor { R.color.accentColor()! }
     
-    static var primaryColor: UIColor { UIColor("#0076b5") }
+    static var primaryColor: UIColor { R.color.primaryColor()! }
     
     static var primaryColorLight: UIColor { UIColor.primaryColor.withAlphaComponent(0.3) }
     

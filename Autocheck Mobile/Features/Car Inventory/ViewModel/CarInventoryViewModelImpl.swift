@@ -16,6 +16,9 @@ class CarInventoryViewModelImpl: BaseViewModel, ICarInventoryViewModel {
     var canFetchMoreCars: Bool { currentPage < totalPages }
     var hasFetchedCarsAndMakes = false
     var showCarsAndMakes: PublishSubject<Bool> = PublishSubject()
+    var showCarDetails: PublishSubject<Bool> = PublishSubject()
+    var carDetails: CarDetail? = nil
+    var carMedia: [CarMedia] = []
     
     fileprivate var currentPage = 1
     fileprivate var totalCars = 0
@@ -36,7 +39,7 @@ class CarInventoryViewModelImpl: BaseViewModel, ICarInventoryViewModel {
     
     override func viewWillAppear() {
         super.viewWillAppear()
-        getMakesAndCars()
+        //getMakesAndCars()
     }
     
     func getMakesAndCars() {
@@ -66,6 +69,14 @@ class CarInventoryViewModelImpl: BaseViewModel, ICarInventoryViewModel {
                 self?.showCarsAndMakes.onNext(true)
             })
         }
+    }
+    
+    func getCarDetails(id: String) {
+        subscribeAny(Observable.zip(remoteDatasource.getCarDetails(id: id), remoteDatasource.getCarMedia(params: ["carId": id])), errorMessage: "Unable to get car details, please try again!", success: { [weak self] details, mediaRes in
+            self?.carDetails = details
+            self?.carMedia = mediaRes.carMediaList
+            self?.showCarDetails.onNext(true)
+        })
     }
     
 }

@@ -24,6 +24,7 @@ class CarTableViewCell: UITableViewCell {
             yearLabel.text = $0.year.string
             priceLabel.text = $0.marketplacePrice.currencyFormatted()
             carImageView.setImageFromURL(url: $0.imageURL)
+            ratingLabel.text = "(\(($0.gradeScore ?? 0).string()))"
         }
     }
     

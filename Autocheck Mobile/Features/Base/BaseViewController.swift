@@ -104,7 +104,7 @@ class BaseViewController: UIViewController {
     }
     
     func showLoading() {
-        enableSwipeBackToPopGesture(false)
+        //enableSwipeBackToPopGesture(false)
         hideLoading()
         createHorizontalProgressBar()
         progressBar?.startAnimating()
@@ -113,7 +113,7 @@ class BaseViewController: UIViewController {
     }
     
     func hideLoading() {
-        enableSwipeBackToPopGesture()
+        //enableSwipeBackToPopGesture()
         progressBar?.stopAnimating()
         enableNavBar()
         views.enableUserInteraction()

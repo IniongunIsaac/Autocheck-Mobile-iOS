@@ -21,8 +21,16 @@ protocol ICarInventoryViewModel: Scopable {
     
     var showCarsAndMakes: PublishSubject<Bool> { get }
     
+    var showCarDetails: PublishSubject<Bool> { get }
+    
+    var carDetails: CarDetail? { get set }
+    
+    var carMedia: [CarMedia] { get set }
+    
     func getMakesAndCars()
     
     func getMoreCars()
+    
+    func getCarDetails(id: String)
     
 }

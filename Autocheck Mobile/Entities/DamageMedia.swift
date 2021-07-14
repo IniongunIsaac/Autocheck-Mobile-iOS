@@ -10,5 +10,5 @@ import Foundation
 
 struct DamageMedia: Codable, Scopable {
     let inspectionItems: [InspectionItem]
-    let name, comment: String
+    let name, comment: String?
 }

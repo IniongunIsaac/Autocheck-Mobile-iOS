@@ -268,7 +268,7 @@ extension Dictionary {
 }
 
 func printIfDebugOrStagingScheme(_ message: Any, _ messageType: AlertType = .error, isJsonResponse: Bool = false) {
-    #if DEBUG || STAGING
+    //#if DEBUG || STAGING
     switch messageType {
     case .error:
         print("🔴🔴🔴 " + String(describing: message))
@@ -282,7 +282,7 @@ func printIfDebugOrStagingScheme(_ message: Any, _ messageType: AlertType = .err
     case .info:
         print("🟡🟡🟡 " + String(describing: message))
     }
-    #endif
+    //#endif
 }
 
 func isLiveEnvironment() -> Bool {
@@ -348,4 +348,36 @@ extension UISearchBar {
         }
         return nil
     }
+}
+
+extension Numeric {
+    
+    var double: Double { Double(truncating: self as! NSNumber) }
+    
+    var float: Float { Float(truncating: self as! NSNumber) }
+    
+    var int: Int { Int(truncating: self as! NSNumber) }
+    
+    var orNil: String { self == 0 ? "Nil" : "\(self)" }
+    
+    var orEmpty: String { self == 0 ? "" : "\(self)" }
+    
+    var milliseconds: Int {
+        Int((self.int % 1) * 1000)
+    }
+    
+    func string(fractionDigits: Int = 2) -> String {
+        let formatter = NumberFormatter().apply {
+            $0.minimumFractionDigits = fractionDigits
+            $0.maximumFractionDigits = fractionDigits
+        }
+        return formatter.string(from: self as! NSNumber) ?? "\(self)"
+    }
+    
+    var inKobo: Int { int * 100 }
+    
+    var inNaira: Int { int / 100 }
+    
+    var percent: String { "\(self)%" }
+    
 }
