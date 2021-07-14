@@ -40,6 +40,11 @@
 		146D914B268D7BF9007E5FEE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914A268D7BF9007E5FEE /* BaseView.swift */; };
 		146D914E268D81EF007E5FEE /* UIPaddableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */; };
 		147AFECB269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AFECA269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift */; };
+		147AFED1269FA12000FDC797 /* details_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 147AFECC269FA12000FDC797 /* details_2.png */; };
+		147AFED2269FA12000FDC797 /* makes.png in Resources */ = {isa = PBXBuildFile; fileRef = 147AFECD269FA12000FDC797 /* makes.png */; };
+		147AFED3269FA12000FDC797 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 147AFECE269FA12000FDC797 /* splash.png */; };
+		147AFED4269FA12000FDC797 /* details_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 147AFECF269FA12000FDC797 /* details_1.png */; };
+		147AFED5269FA12000FDC797 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 147AFED0269FA12000FDC797 /* list.png */; };
 		149118AD269D92BA008E9D87 /* Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118AC269D92BA008E9D87 /* Make.swift */; };
 		149118AF269D92DC008E9D87 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118AE269D92DC008E9D87 /* Pagination.swift */; };
 		149118B1269D9301008E9D87 /* MakeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149118B0269D9301008E9D87 /* MakeResponse.swift */; };
@@ -149,6 +154,11 @@
 		146D914A268D7BF9007E5FEE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddableLabel.swift; sourceTree = "<group>"; };
 		147AFECA269F7ADC00FDC797 /* CarMediaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		147AFECC269FA12000FDC797 /* details_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details_2.png; sourceTree = "<group>"; };
+		147AFECD269FA12000FDC797 /* makes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makes.png; sourceTree = "<group>"; };
+		147AFECE269FA12000FDC797 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		147AFECF269FA12000FDC797 /* details_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details_1.png; sourceTree = "<group>"; };
+		147AFED0269FA12000FDC797 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		149118AC269D92BA008E9D87 /* Make.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make.swift; sourceTree = "<group>"; };
 		149118AE269D92DC008E9D87 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
 		149118B0269D9301008E9D87 /* MakeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeResponse.swift; sourceTree = "<group>"; };
@@ -239,6 +249,11 @@
 		144A5B31268FCF040015898D /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				147AFECF269FA12000FDC797 /* details_1.png */,
+				147AFECC269FA12000FDC797 /* details_2.png */,
+				147AFED0269FA12000FDC797 /* list.png */,
+				147AFECD269FA12000FDC797 /* makes.png */,
+				147AFECE269FA12000FDC797 /* splash.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -706,20 +721,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147AFED2269FA12000FDC797 /* makes.png in Resources */,
+				147AFED4269FA12000FDC797 /* details_1.png in Resources */,
 				149118F8269DB93E008E9D87 /* Nunito-SemiBold.ttf in Resources */,
 				149118EF269DB93E008E9D87 /* Nunito-SemiBoldItalic.ttf in Resources */,
 				144AD2832502919900394E59 /* .gitignore in Resources */,
 				144AD25425028CF400394E59 /* LaunchScreen.storyboard in Resources */,
 				149118EB269DB93E008E9D87 /* Nunito-BoldItalic.ttf in Resources */,
+				147AFED1269FA12000FDC797 /* details_2.png in Resources */,
 				149118F2269DB93E008E9D87 /* Nunito-BlackItalic.ttf in Resources */,
 				144AD25125028CF400394E59 /* Assets.xcassets in Resources */,
 				149118F5269DB93E008E9D87 /* Nunito-Regular.ttf in Resources */,
 				149118D4269DB1ED008E9D87 /* CarInventory.storyboard in Resources */,
+				147AFED5269FA12000FDC797 /* list.png in Resources */,
 				149118F3269DB93E008E9D87 /* Nunito-ExtraLight.ttf in Resources */,
 				144A5B30268FCE8A0015898D /* README.md in Resources */,
 				149118EE269DB93E008E9D87 /* Nunito-Black.ttf in Resources */,
 				149118F7269DB93E008E9D87 /* Nunito-ExtraLightItalic.ttf in Resources */,
 				149118F1269DB93E008E9D87 /* Nunito-Light.ttf in Resources */,
+				147AFED3269FA12000FDC797 /* splash.png in Resources */,
 				149118F0269DB93E008E9D87 /* Nunito-LightItalic.ttf in Resources */,
 				149118ED269DB93E008E9D87 /* Nunito-Bold.ttf in Resources */,
 				149118F6269DB93E008E9D87 /* Nunito-ExtraBold.ttf in Resources */,
