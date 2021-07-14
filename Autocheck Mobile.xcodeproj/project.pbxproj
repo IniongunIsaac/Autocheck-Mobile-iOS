@@ -82,6 +82,9 @@
 		14C23DA625034B6C00614E69 /* IPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C23DA525034B6C00614E69 /* IPreference.swift */; };
 		14C23DA825034C1100614E69 /* PreferenceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C23DA725034C1100614E69 /* PreferenceConstants.swift */; };
 		14C23DAA25034C3600614E69 /* PreferenceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C23DA925034C3600614E69 /* PreferenceImpl.swift */; };
+		14EAC6AA269F25790002D974 /* MakeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAC6A9269F25790002D974 /* MakeCollectionViewCell.swift */; };
+		14EAC6AC269F25960002D974 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAC6AB269F25960002D974 /* CarTableViewCell.swift */; };
+		14EAC6AE269F25F30002D974 /* MakeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAC6AD269F25F30002D974 /* MakeTableViewCell.swift */; };
 		212BA89155CCB1BB48AE63BF /* Pods_Autocheck_MobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F51A570C54C5A2FE46C56B1 /* Pods_Autocheck_MobileTests.framework */; };
 		3EF618FED283E020DED4937A /* Pods_Autocheck_Mobile_Autocheck_MobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C22EDFF27C7730ECF3337F /* Pods_Autocheck_Mobile_Autocheck_MobileUITests.framework */; };
 		440DFD5316072B8F84D2432C /* Pods_Autocheck_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B069CFA792EEDAB6B6FF16 /* Pods_Autocheck_Mobile.framework */; };
@@ -187,6 +190,9 @@
 		14C23DA525034B6C00614E69 /* IPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPreference.swift; sourceTree = "<group>"; };
 		14C23DA725034C1100614E69 /* PreferenceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceConstants.swift; sourceTree = "<group>"; };
 		14C23DA925034C3600614E69 /* PreferenceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceImpl.swift; sourceTree = "<group>"; };
+		14EAC6A9269F25790002D974 /* MakeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCollectionViewCell.swift; sourceTree = "<group>"; };
+		14EAC6AB269F25960002D974 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		14EAC6AD269F25F30002D974 /* MakeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTableViewCell.swift; sourceTree = "<group>"; };
 		248DD83D7061184623CB7928 /* Pods-Autocheck Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autocheck Mobile.release.xcconfig"; path = "Target Support Files/Pods-Autocheck Mobile/Pods-Autocheck Mobile.release.xcconfig"; sourceTree = "<group>"; };
 		42F61F379159421947CC5D0E /* Pods-Autocheck Mobile.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autocheck Mobile.dev.xcconfig"; path = "Target Support Files/Pods-Autocheck Mobile/Pods-Autocheck Mobile.dev.xcconfig"; sourceTree = "<group>"; };
 		48D24A553F4B0629288BC038 /* Pods-Autocheck Mobile-Autocheck MobileUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autocheck Mobile-Autocheck MobileUITests.staging.xcconfig"; path = "Target Support Files/Pods-Autocheck Mobile-Autocheck MobileUITests/Pods-Autocheck Mobile-Autocheck MobileUITests.staging.xcconfig"; sourceTree = "<group>"; };
@@ -535,6 +541,9 @@
 			children = (
 				149118D5269DB21D008E9D87 /* CarInventoryViewController.swift */,
 				149118D7269DB23B008E9D87 /* CarDetailsViewController.swift */,
+				14EAC6A9269F25790002D974 /* MakeCollectionViewCell.swift */,
+				14EAC6AB269F25960002D974 /* CarTableViewCell.swift */,
+				14EAC6AD269F25F30002D974 /* MakeTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -916,6 +925,7 @@
 				1454CE5E2512A47000AD1BF1 /* IInputValidator.swift in Sources */,
 				149118C5269DA850008E9D87 /* DamageMedia.swift in Sources */,
 				1454CE7D2512A7C000AD1BF1 /* ScopeFunctions.swift in Sources */,
+				14EAC6AA269F25790002D974 /* MakeCollectionViewCell.swift in Sources */,
 				149118DA269DB263008E9D87 /* ICarInventoryViewModel.swift in Sources */,
 				144AD24A25028CF200394E59 /* SceneDelegate.swift in Sources */,
 				1454CE652512A53000AD1BF1 /* AlertType.swift in Sources */,
@@ -927,6 +937,8 @@
 				149118C1269DA6E5008E9D87 /* CarBodyType.swift in Sources */,
 				149118AD269D92BA008E9D87 /* Make.swift in Sources */,
 				1454CE712512A62600AD1BF1 /* Code+Extensions.swift in Sources */,
+				14EAC6AE269F25F30002D974 /* MakeTableViewCell.swift in Sources */,
+				14EAC6AC269F25960002D974 /* CarTableViewCell.swift in Sources */,
 				149118B3269DA3A4008E9D87 /* CarResponse.swift in Sources */,
 				14C23DA025034ABF00614E69 /* RemoteDataSource+Extensions.swift in Sources */,
 				149118AF269D92DC008E9D87 /* Pagination.swift in Sources */,

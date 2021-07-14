@@ -9,6 +9,20 @@
 import Foundation
 import RxSwift
 
-protocol ICarInventoryViewModel {
+protocol ICarInventoryViewModel: Scopable {
+    
+    var makes: [Make] { get set }
+    
+    var cars: [Car] { get set }
+    
+    var canFetchMoreCars: Bool { get }
+    
+    var hasFetchedCarsAndMakes: Bool { get set }
+    
+    var showCarsAndMakes: PublishSubject<Bool> { get }
+    
+    func getMakesAndCars()
+    
+    func getMoreCars()
     
 }

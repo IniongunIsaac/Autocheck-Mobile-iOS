@@ -371,7 +371,7 @@ extension UIImageView {
         self.clipsToBounds = true
     }
     
-    func setImageFromURL(url: String, placeholderImage: UIImage? = R.image.back_icon(), cornerRadius: CGFloat = 5) {
+    func setImageFromURL(url: String, placeholderImage: UIImage? = R.image.placeholder_image(), cornerRadius: CGFloat = 5) {
         if let url = URL(string: url) {
             let processor = DownsamplingImageProcessor(size: self.bounds.size) |> RoundCornerImageProcessor(cornerRadius: cornerRadius)
             self.kf.indicatorType = .activity
