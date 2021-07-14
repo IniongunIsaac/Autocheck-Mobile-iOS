@@ -23,8 +23,8 @@ The app is built using the follwing:
 * Build and run the project on the XCode Simulator or any physically connected iOS device.
 
 ### Screenshots
-<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/master/Screenshots/splash.png" width="400" height="750" alt="Splash">     <img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/master/Screenshots/makes.png" width="400" height="750" alt="Makes">
+<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/splash.png" width="400" height="750" alt="Splash">     <img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/makes.png" width="400" height="750" alt="Makes">
 
-<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/master/Screenshots/list.png" width="400" height="750" alt="List">     <img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/master/Screenshots/details_1.png" width="400" height="750" alt="Details">
+<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/list.png" width="400" height="750" alt="List">     <img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/details_1.png" width="400" height="750" alt="Details">
 
-<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/master/Screenshots/details_2.png" width="400" height="750" alt="Details"> 
+<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/details_2.png" width="400" height="750" alt="Details"> 
