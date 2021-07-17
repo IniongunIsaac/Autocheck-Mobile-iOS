@@ -7,6 +7,7 @@ PODS:
   - Kingfisher (5.14.1):
     - Kingfisher/Core (= 5.14.1)
   - Kingfisher/Core (5.14.1)
+  - PocketSVG (2.7.0)
   - R.swift (5.2.2):
     - R.swift.Library (~> 5.2.0)
   - R.swift.Library (5.2.0)
@@ -47,6 +48,7 @@ DEPENDENCIES:
   - DeviceKit (~> 4.0)
   - HorizontalProgressBar
   - Kingfisher
+  - PocketSVG (~> 2.0)
   - R.swift
   - RxAlamofire (~> 5)
   - RxBlocking (~> 5)
@@ -67,6 +69,7 @@ SPEC REPOS:
     - Differentiator
     - HorizontalProgressBar
     - Kingfisher
+    - PocketSVG
     - R.swift
     - R.swift.Library
     - RxAlamofire
@@ -97,6 +100,7 @@ SPEC CHECKSUMS:
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   HorizontalProgressBar: f0e3d36051656651d1430d2cf5e0146fc4895f15
   Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
+  PocketSVG: 5e0ff20c8a661586b2f2c295cd18b3e8f06de552
   R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
   R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
   RxAlamofire: f34ddbab56fa2a36f99737f4d4ecc22288a1384f
@@ -111,6 +115,6 @@ SPEC CHECKSUMS:
   SwinjectStoryboard: f0d5b1c16459949d6ff1cbb6610107946b18e1f8
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 579392d18bd9335e94e09b5c8683d3013b24a747
+PODFILE CHECKSUM: b9c02520d21053f4b947fc980c57cd980d82e4ef
 
 COCOAPODS: 1.10.1

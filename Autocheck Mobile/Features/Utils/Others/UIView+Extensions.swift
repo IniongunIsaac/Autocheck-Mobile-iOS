@@ -373,9 +373,9 @@ extension UIImageView {
     
     func setImageFromURL(url: String, placeholderImage: UIImage? = R.image.placeholder_image(), cornerRadius: CGFloat = 5) {
         if let url = URL(string: url) {
-            let processor = DownsamplingImageProcessor(size: self.bounds.size) |> RoundCornerImageProcessor(cornerRadius: cornerRadius)
-            self.kf.indicatorType = .activity
-            self.kf .setImage(
+            let processor = url.lastPathComponent.contains("svg")  ? SVGProcessor(size: bounds.size) : DownsamplingImageProcessor(size: bounds.size) |> RoundCornerImageProcessor(cornerRadius: cornerRadius)
+            kf.indicatorType = .activity
+            kf.setImage(
                 with: url,
                 placeholder: placeholderImage,
                 options: [

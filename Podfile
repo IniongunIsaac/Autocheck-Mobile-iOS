@@ -21,6 +21,7 @@ target 'Autocheck Mobile' do
   pod 'Kingfisher'
   pod 'Toast-Swift', '~> 5.0.1'
   pod "AttributedStringBuilder"
+  pod 'PocketSVG', '~> 2.0'
 
   target 'Autocheck MobileTests' do
     inherit! :search_paths

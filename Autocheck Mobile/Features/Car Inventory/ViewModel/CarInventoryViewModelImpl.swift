@@ -37,11 +37,6 @@ class CarInventoryViewModelImpl: BaseViewModel, ICarInventoryViewModel {
         self.remoteDatasource = remoteDatasource
     }
     
-    override func viewWillAppear() {
-        super.viewWillAppear()
-        //getMakesAndCars()
-    }
-    
     func getMakesAndCars() {
         subscribeAny(Observable.zip(remoteDatasource.getCarBrands(), remoteDatasource.getCars(params: carParams)), success: { [weak self] makesRes, carsRes in
             self?.hasFetchedCarsAndMakes = true

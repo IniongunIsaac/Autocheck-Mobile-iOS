@@ -88,6 +88,7 @@
 		14C23DA625034B6C00614E69 /* IPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C23DA525034B6C00614E69 /* IPreference.swift */; };
 		14C23DA825034C1100614E69 /* PreferenceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C23DA725034C1100614E69 /* PreferenceConstants.swift */; };
 		14C23DAA25034C3600614E69 /* PreferenceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C23DA925034C3600614E69 /* PreferenceImpl.swift */; };
+		14D1A5FA26A2E7C300B4D0C6 /* SVGProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1A5F926A2E7C300B4D0C6 /* SVGProcessor.swift */; };
 		14EAC6AA269F25790002D974 /* MakeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAC6A9269F25790002D974 /* MakeCollectionViewCell.swift */; };
 		14EAC6AC269F25960002D974 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAC6AB269F25960002D974 /* CarTableViewCell.swift */; };
 		14EAC6AE269F25F30002D974 /* MakeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAC6AD269F25F30002D974 /* MakeTableViewCell.swift */; };
@@ -202,6 +203,7 @@
 		14C23DA525034B6C00614E69 /* IPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPreference.swift; sourceTree = "<group>"; };
 		14C23DA725034C1100614E69 /* PreferenceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceConstants.swift; sourceTree = "<group>"; };
 		14C23DA925034C3600614E69 /* PreferenceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceImpl.swift; sourceTree = "<group>"; };
+		14D1A5F926A2E7C300B4D0C6 /* SVGProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGProcessor.swift; sourceTree = "<group>"; };
 		14EAC6A9269F25790002D974 /* MakeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCollectionViewCell.swift; sourceTree = "<group>"; };
 		14EAC6AB269F25960002D974 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 		14EAC6AD269F25F30002D974 /* MakeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTableViewCell.swift; sourceTree = "<group>"; };
@@ -522,6 +524,7 @@
 				1454CE7C2512A7C000AD1BF1 /* ScopeFunctions.swift */,
 				145A6825255D4A2900554B4C /* Numbers+Extensions.swift */,
 				146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */,
+				14D1A5F926A2E7C300B4D0C6 /* SVGProcessor.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -936,6 +939,7 @@
 				145A6826255D4A2900554B4C /* Numbers+Extensions.swift in Sources */,
 				14C23DA825034C1100614E69 /* PreferenceConstants.swift in Sources */,
 				149118B5269DA3AD008E9D87 /* Car.swift in Sources */,
+				14D1A5FA26A2E7C300B4D0C6 /* SVGProcessor.swift in Sources */,
 				1454CEB12512B10000AD1BF1 /* ViewWithBorderAttributes.swift in Sources */,
 				14C23DAA25034C3600614E69 /* PreferenceImpl.swift in Sources */,
 				149118CA269DAD9D008E9D87 /* IInventoryRemoteDatasource.swift in Sources */,
